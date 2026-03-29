@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>沪深300回测 Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0d1117; color: #e6edf3; font-family: 'SF Mono', Consolas, monospace; padding: 24px; font-size: 13px; }
+
+h1 { font-size: 16px; color: #58a6ff; margin-bottom: 4px; }
+.subtitle { color: #8b949e; font-size: 12px; margin-bottom: 20px; }
+
+.toolbar { display: flex; gap: 10px; align-items: center; margin-bottom: 20px; flex-wrap: wrap; }
+.btn { background: #21262d; border: 1px solid #30363d; color: #58a6ff; padding: 7px 14px; border-radius: 6px; cursor: pointer; font-size: 12px; }
+.btn:hover { background: #30363d; }
+.btn.primary { background: #1f6feb; border-color: #1f6feb; color: #fff; }
+.btn.primary:hover { background: #388bfd; }
+input[type=file] { display: none; }
+
+.summary-cards { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; margin-bottom: 20px; }
+.card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 14px; }
+.card-label { font-size: 10px; color: #8b949e; margin-bottom: 5px; text-transform: uppercase; letter-spacing: 0.5px; }
+.card-value { font-size: 20px; font-weight: 700; }
+.pos { color: #3fb950; } .neg { color: #f85149; } .neu { color: #58a6ff; } .warn { color: #d29922; }
+
+.charts-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+.chart-box { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; }
+.chart-title { font-size: 11px; color: #8b949e; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+canvas { max-height: 220px; }
+
+.table-box { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 14px; }
+.table-title { font-size: 11px; color: #8b949e; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; display: flex; justify-content: space-between; align-items: center; }
+
+.filter-row { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; align-items: center; }
+.filter-row label { color: #8b949e; font-size: 11px; }
+select, input[type=range] { background: #21262d; border: 1px solid #30363d; color: #e6edf3; padding: 4px 8px; border-radius: 4px; font-size: 11px; }
+
+table { width: 100%; border-collapse: collapse; }
+th { color: #8b949e; text-align: left; padding: 7px 10px; border-bottom: 1px solid #30363d; font-size: 11px; text-transform: uppercase; letter-spacing: 0.3px; cursor: pointer; user-select: none; white-space: nowrap; }
+th:hover { color: #58a6ff; }
+th .sort-icon { margin-left: 4px; opacity: 0.4; }
+th.sorted .sort-icon { opacity: 1; color: #58a6ff; }
+td { padding: 7px 10px; border-bottom: 1px solid #161b22; font-size: 12px; }
+tr:hover td { background: #1c2128; }
+.tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 10px; font-weight: 600; }
+.tag-pos { background: #0d4429; color: #3fb950; }
+.tag-neg { background: #3d1a1a; color: #f85149; }
+.tag-neu { background: #1a2740; color: #58a6ff; }
+
+.detail-panel { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 14px; display: none; }
+.detail-panel.visible { display: block; }
+.detail-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+.detail-header h3 { color: #58a6ff; font-size: 14px; }
+.close-btn { cursor: pointer; color: #8b949e; font-size: 18px; line-height: 1; }
+.close-btn:hover { color: #e6edf3; }
+.detail-cards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-bottom: 14px; }
+.detail-cards .card { padding: 10px 12px; }
+.detail-cards .card-value { font-size: 16px; }
+
+.empty { color: #8b949e; text-align: center; padding: 40px; }
+</style>
+</head>
+<body>
+
+<h1>📊 沪深300量化回测 Dashboard</h1>
+<p class="subtitle">策略：跌破MA30 + 跌幅≥5% + 量比≥2倍建仓 | 站上MA30清仓</p>
+
+<div class="toolbar">
+  <button class="btn primary" onclick="document.getElementById('csv-input').click()">📂 加载批量汇总 CSV</button>
+  <button class="btn" onclick="document.getElementById('json-input').click()">📈 加载单股详情 JSON</button>
+  <input type="file" id="csv-input" accept=".csv" onchange="loadCSV(event)">
+  <input type="file" id="json-input" accept=".json" onchange="loadJSON(event)">
+  <span id="load-status" style="color:#8b949e; font-size:12px;"></span>
+</div>
+
+<!-- 汇总指标卡片 -->
+<div class="summary-cards" id="summary-cards">
+  <div class="card"><div class="card-label">总股票数</div><div class="card-value neu" id="s-total">—</div></div>
+  <div class="card"><div class="card-label">正收益只数</div><div class="card-value pos" id="s-pos">—</div></div>
+  <div class="card"><div class="card-label">平均年化收益</div><div class="card-value" id="s-avg-ret">—</div></div>
+  <div class="card"><div class="card-label">平均夏普</div><div class="card-value" id="s-avg-sharpe">—</div></div>
+  <div class="card"><div class="card-label">平均最大回撤</div><div class="card-value neg" id="s-avg-dd">—</div></div>
+  <div class="card"><div class="card-label">最高夏普</div><div class="card-value pos" id="s-best-sharpe">—</div></div>
+</div>
+
+<!-- 图表行 -->
+<div class="charts-row">
+  <div class="chart-box">
+    <div class="chart-title">年化收益率分布</div>
+    <canvas id="retChart"></canvas>
+  </div>
+  <div class="chart-box">
+    <div class="chart-title">夏普比率分布</div>
+    <canvas id="sharpeChart"></canvas>
+  </div>
+</div>
+<div class="charts-row">
+  <div class="chart-box">
+    <div class="chart-title">收益 vs 回撤 散点图（点击查看个股）</div>
+    <canvas id="scatterChart"></canvas>
+  </div>
+  <div class="chart-box">
+    <div class="chart-title">交易次数分布</div>
+    <canvas id="tradeChart"></canvas>
+  </div>
+</div>
+
+<!-- 个股详情面板（点击散点触发） -->
+<div class="detail-panel" id="detail-panel">
+  <div class="detail-header">
+    <h3 id="detail-title">个股详情</h3>
+    <span class="close-btn" onclick="closeDetail()">×</span>
+  </div>
+  <div class="detail-cards" id="detail-cards"></div>
+  <div class="chart-box" style="margin:0">
+    <div class="chart-title">净值曲线（需加载对应JSON）</div>
+    <canvas id="detailNavChart" style="max-height:180px"></canvas>
+  </div>
+</div>
+
+<!-- 排行榜表格 -->
+<div class="table-box">
+  <div class="table-title">
+    <span>个股排行榜</span>
+    <div class="filter-row" style="margin:0">
+      <label>筛选：</label>
+      <select id="filter-col" onchange="applyFilter()">
+        <option value="all">全部</option>
+        <option value="pos">正收益</option>
+        <option value="sharpe_pos">夏普>0</option>
+        <option value="traded">有交易</option>
+      </select>
+      <label style="margin-left:8px">排序：</label>
+      <select id="sort-col" onchange="renderTable()">
+        <option value="sharpe_ratio">夏普比率</option>
+        <option value="annual_return">年化收益</option>
+        <option value="total_return">总收益</option>
+        <option value="max_drawdown">最大回撤</option>
+        <option value="trade_count">交易次数</option>
+      </select>
+    </div>
+  </div>
+  <div style="overflow-x:auto; max-height:420px; overflow-y:auto;">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th onclick="sortBy('stock_code')">代码 <span class="sort-icon">↕</span></th>
+          <th onclick="sortBy('total_return')">总收益 <span class="sort-icon">↕</span></th>
+          <th onclick="sortBy('annual_return')">年化收益 <span class="sort-icon">↕</span></th>
+          <th onclick="sortBy('max_drawdown')">最大回撤 <span class="sort-icon">↕</span></th>
+          <th onclick="sortBy('sharpe_ratio')">夏普比率 <span class="sort-icon">↕</span></th>
+          <th onclick="sortBy('trade_count')">交易次数 <span class="sort-icon">↕</span></th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <tr><td colspan="7" class="empty">请先加载 batch_summary_*.csv 文件</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+let allData = [];
+let filteredData = [];
+let sortCol = 'sharpe_ratio';
+let sortAsc = false;
+let charts = {};
+let detailNavChartInst = null;
+let currentDetailData = null;
+
+// ── 加载CSV ──────────────────────────────────────────────
+function loadCSV(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    const rows = e.target.result.trim().split('\n');
+    const headers = rows[0].split(',').map(h => h.trim().replace(/"/g, ''));
+    allData = rows.slice(1).map(row => {
+      const vals = row.split(',');
+      const obj = {};
+      headers.forEach((h, i) => {
+        const v = (vals[i] || '').trim().replace(/"/g, '');
+        obj[h] = isNaN(v) || v === '' ? v : parseFloat(v);
+      });
+      return obj;
+    }).filter(r => r.stock_code);
+
+    document.getElementById('load-status').textContent = `已加载 ${allData.length} 只股票`;
+    filteredData = [...allData];
+    updateSummary();
+    renderCharts();
+    renderTable();
+  };
+  reader.readAsText(file, 'utf-8');
+}
+
+// ── 加载单股JSON（用于详情净值曲线）──────────────────────
+function loadJSON(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      const result = Array.isArray(data) ? data[0] : data;
+      showDetailFromJSON(result);
+    } catch(err) { alert('JSON解析失败: ' + err.message); }
+  };
+  reader.readAsText(file);
+}
+
+// ── 汇总指标 ──────────────────────────────────────────────
+function updateSummary() {
+  const d = filteredData;
+  if (!d.length) return;
+  const posCount = d.filter(r => r.annual_return > 0).length;
+  const avgRet = d.reduce((s, r) => s + (r.annual_return || 0), 0) / d.length;
+  const avgSharpe = d.reduce((s, r) => s + (r.sharpe_ratio || 0), 0) / d.length;
+  const avgDD = d.reduce((s, r) => s + (r.max_drawdown || 0), 0) / d.length;
+  const bestSharpe = Math.max(...d.map(r => r.sharpe_ratio || -99));
+
+  setText('s-total', d.length, 'neu');
+  setText('s-pos', `${posCount} (${(posCount/d.length*100).toFixed(0)}%)`, 'pos');
+  setText('s-avg-ret', pct(avgRet), avgRet >= 0 ? 'pos' : 'neg');
+  setText('s-avg-sharpe', fix2(avgSharpe), avgSharpe >= 0 ? 'pos' : 'neg');
+  setText('s-avg-dd', pct(avgDD), 'neg');
+  setText('s-best-sharpe', fix2(bestSharpe), 'pos');
+}
+
+function setText(id, val, cls) {
+  const el = document.getElementById(id);
+  el.textContent = val;
+  el.className = 'card-value ' + cls;
+}
+
+// ── 图表渲染 ──────────────────────────────────────────────
+function renderCharts() {
+  const d = filteredData;
+  if (!d.length) return;
+
+  // 年化收益分布直方图
+  renderHistogram('retChart', d.map(r => r.annual_return * 100), '年化收益率 (%)', '#58a6ff');
+
+  // 夏普分布直方图
+  renderHistogram('sharpeChart', d.map(r => r.sharpe_ratio), '夏普比率', '#3fb950');
+
+  // 散点图：收益 vs 回撤
+  if (charts.scatter) charts.scatter.destroy();
+  const scatterData = d.map(r => ({ x: r.max_drawdown * 100, y: r.annual_return * 100, label: r.stock_code }));
+  charts.scatter = new Chart(document.getElementById('scatterChart'), {
+    type: 'scatter',
+    data: { datasets: [{ data: scatterData, backgroundColor: scatterData.map(p => p.y >= 0 ? 'rgba(63,185,80,0.6)' : 'rgba(248,81,73,0.6)'), pointRadius: 5, pointHoverRadius: 7 }] },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => `${ctx.raw.label}  收益:${ctx.raw.y.toFixed(2)}%  回撤:${ctx.raw.x.toFixed(2)}%` } } },
+      scales: {
+        x: { title: { display: true, text: '最大回撤 (%)', color: '#8b949e' }, ticks: { color: '#8b949e' }, grid: { color: '#21262d' } },
+        y: { title: { display: true, text: '年化收益 (%)', color: '#8b949e' }, ticks: { color: '#8b949e' }, grid: { color: '#21262d' } }
+      },
+      onClick: (e, elements) => {
+        if (elements.length > 0) {
+          const idx = elements[0].index;
+          const stock = scatterData[idx].label;
+          showDetailFromTable(stock);
+        }
+      }
+    }
+  });
+
+  // 交易次数分布
+  renderHistogram('tradeChart', d.map(r => r.trade_count), '交易次数', '#d29922');
+}
+
+function renderHistogram(canvasId, values, label, color) {
+  if (charts[canvasId]) charts[canvasId].destroy();
+  const min = Math.min(...values), max = Math.max(...values);
+  const bins = 20;
+  const step = (max - min) / bins || 1;
+  const counts = new Array(bins).fill(0);
+  const labels = [];
+  for (let i = 0; i < bins; i++) labels.push((min + i * step).toFixed(1));
+  values.forEach(v => {
+    const idx = Math.min(Math.floor((v - min) / step), bins - 1);
+    counts[idx]++;
+  });
+  charts[canvasId] = new Chart(document.getElementById(canvasId), {
+    type: 'bar',
+    data: { labels, datasets: [{ label, data: counts, backgroundColor: color + '99', borderColor: color, borderWidth: 1 }] },
+    options: { responsive: true, plugins: { legend: { display: false } }, scales: { x: { ticks: { color: '#8b949e', maxTicksLimit: 8, font: { size: 10 } }, grid: { color: '#21262d' } }, y: { ticks: { color: '#8b949e' }, grid: { color: '#21262d' } } } }
+  });
+}
+
+// ── 表格 ──────────────────────────────────────────────────
+function applyFilter() {
+  const f = document.getElementById('filter-col').value;
+  if (f === 'all') filteredData = [...allData];
+  else if (f === 'pos') filteredData = allData.filter(r => r.annual_return > 0);
+  else if (f === 'sharpe_pos') filteredData = allData.filter(r => r.sharpe_ratio > 0);
+  else if (f === 'traded') filteredData = allData.filter(r => r.trade_count > 0);
+  updateSummary();
+  renderCharts();
+  renderTable();
+}
+
+function sortBy(col) {
+  if (sortCol === col) sortAsc = !sortAsc;
+  else { sortCol = col; sortAsc = false; }
+  document.getElementById('sort-col').value = col;
+  renderTable();
+}
+
+function renderTable() {
+  const col = document.getElementById('sort-col').value;
+  sortCol = col;
+  const sorted = [...filteredData].sort((a, b) => sortAsc ? (a[sortCol] - b[sortCol]) : (b[sortCol] - a[sortCol]));
+  const tbody = document.getElementById('table-body');
+  if (!sorted.length) { tbody.innerHTML = '<tr><td colspan="7" class="empty">无数据</td></tr>'; return; }
+  tbody.innerHTML = sorted.map((r, i) => {
+    const retCls = r.annual_return >= 0 ? 'pos' : 'neg';
+    const sharpeCls = r.sharpe_ratio >= 1 ? 'pos' : r.sharpe_ratio >= 0 ? 'warn' : 'neg';
+    return `<tr onclick="showDetailFromTable('${r.stock_code}')" style="cursor:pointer">
+      <td style="color:#8b949e">${i+1}</td>
+      <td><span class="tag tag-neu">${r.stock_code}</span></td>
+      <td class="${retCls}">${pct(r.total_return)}</td>
+      <td class="${retCls}">${pct(r.annual_return)}</td>
+      <td class="neg">${pct(r.max_drawdown)}</td>
+      <td class="${sharpeCls}">${fix2(r.sharpe_ratio)}</td>
+      <td style="color:#8b949e">${r.trade_count}</td>
+    </tr>`;
+  }).join('');
+}
+
+// ── 个股详情 ──────────────────────────────────────────────
+function showDetailFromTable(code) {
+  const r = allData.find(d => d.stock_code == code);
+  if (!r) return;
+  document.getElementById('detail-title').textContent = `个股详情：${code}`;
+  const cards = [
+    { label: '总收益率', value: pct(r.total_return), cls: r.total_return >= 0 ? 'pos' : 'neg' },
+    { label: '年化收益', value: pct(r.annual_return), cls: r.annual_return >= 0 ? 'pos' : 'neg' },
+    { label: '最大回撤', value: pct(r.max_drawdown), cls: 'neg' },
+    { label: '夏普比率', value: fix2(r.sharpe_ratio), cls: r.sharpe_ratio >= 0 ? 'pos' : 'neg' },
+    { label: '交易次数', value: r.trade_count, cls: 'neu' },
+  ];
+  document.getElementById('detail-cards').innerHTML = cards.map(c =>
+    `<div class="card"><div class="card-label">${c.label}</div><div class="card-value ${c.cls}">${c.value}</div></div>`
+  ).join('');
+  document.getElementById('detail-panel').classList.add('visible');
+  document.getElementById('detail-panel').scrollIntoView({ behavior: 'smooth' });
+
+  // 净值曲线占位提示
+  if (detailNavChartInst) detailNavChartInst.destroy();
+  detailNavChartInst = null;
+}
+
+function showDetailFromJSON(data) {
+  const daily = data.daily_portfolio || [];
+  if (!daily.length) return;
+  document.getElementById('detail-panel').classList.add('visible');
+  if (detailNavChartInst) detailNavChartInst.destroy();
+  const dates = daily.map(d => (d.date || '').slice(0, 10));
+  const navValues = daily.map(d => +(d.portfolio_value / (data.initial_capital || 1000000)).toFixed(4));
+  const trades = data.trades || [];
+  const buySet = new Set(trades.filter(t => t.action === 'buy_first').map(t => (t.date||'').slice(0,10)));
+  const addSet = new Set(trades.filter(t => t.action === 'buy_add').map(t => (t.date||'').slice(0,10)));
+  const sellSet = new Set(trades.filter(t => t.action === 'sell').map(t => (t.date||'').slice(0,10)));
+
+  detailNavChartInst = new Chart(document.getElementById('detailNavChart'), {
+    type: 'line',
+    data: { labels: dates, datasets: [{ label: '净值', data: navValues, borderColor: '#58a6ff', borderWidth: 1.5, fill: false, tension: 0.1,
+      pointRadius: dates.map(d => buySet.has(d)||sellSet.has(d)||addSet.has(d) ? 5 : 0),
+      pointBackgroundColor: dates.map(d => buySet.has(d) ? '#3fb950' : addSet.has(d) ? '#d29922' : sellSet.has(d) ? '#f85149' : '#58a6ff'),
+    }] },
+    options: { responsive: true, plugins: { legend: { display: false } }, scales: { x: { ticks: { color: '#8b949e', maxTicksLimit: 8, font: { size: 10 } }, grid: { color: '#21262d' } }, y: { ticks: { color: '#8b949e' }, grid: { color: '#21262d' } } } }
+  });
+  document.getElementById('detail-title').textContent = `净值曲线：${data.stock_code || ''}`;
+  document.getElementById('detail-panel').scrollIntoView({ behavior: 'smooth' });
+}
+
+function closeDetail() {
+  document.getElementById('detail-panel').classList.remove('visible');
+}
+
+const pct = v => v !== undefined && !isNaN(v) ? (v * 100).toFixed(2) + '%' : '—';
+const fix2 = v => v !== undefined && !isNaN(v) ? parseFloat(v).toFixed(2) : '—';
+</script>
+</body>
+</html>

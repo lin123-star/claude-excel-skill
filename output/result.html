@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>回测报告</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0d1117; color: #e6edf3; font-family: 'SF Mono', 'Consolas', monospace; padding: 24px; }
+  h1 { font-size: 18px; color: #58a6ff; margin-bottom: 8px; }
+  .meta { color: #8b949e; font-size: 13px; margin-bottom: 24px; }
+  .cards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 28px; }
+  .card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; }
+  .card-label { font-size: 11px; color: #8b949e; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .card-value { font-size: 22px; font-weight: 600; }
+  .pos { color: #3fb950; } .neg { color: #f85149; } .neu { color: #58a6ff; }
+  .chart-box { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 20px; margin-bottom: 16px; }
+  .chart-title { font-size: 13px; color: #8b949e; margin-bottom: 14px; }
+  canvas { max-height: 240px; }
+  .load-btn { background: #21262d; border: 1px solid #30363d; color: #58a6ff; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 13px; margin-bottom: 20px; }
+  .load-btn:hover { background: #30363d; }
+  #file-input { display: none; }
+  .trades-table { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
+  .trades-table th { color: #8b949e; text-align: left; padding: 6px 8px; border-bottom: 1px solid #30363d; }
+  .trades-table td { padding: 6px 8px; border-bottom: 1px solid #21262d; }
+  .buy { color: #3fb950; } .sell { color: #f85149; } .add { color: #d29922; }
+</style>
+</head>
+<body>
+
+<h1>📊 策略回测报告</h1>
+<div class="meta" id="meta-info">请加载 output/ 目录下的 result.json 文件</div>
+
+<button class="load-btn" onclick="document.getElementById('file-input').click()">
+  📂 加载回测结果 JSON
+</button>
+<input type="file" id="file-input" accept=".json" onchange="loadFile(event)">
+
+<div class="cards" id="metrics-cards" style="display:none"></div>
+
+<div class="chart-box" id="nav-box" style="display:none">
+  <div class="chart-title">净值曲线</div>
+  <canvas id="navChart"></canvas>
+</div>
+
+<div class="chart-box" id="dd-box" style="display:none">
+  <div class="chart-title">回撤曲线</div>
+  <canvas id="ddChart"></canvas>
+</div>
+
+<div class="chart-box" id="trades-box" style="display:none">
+  <div class="chart-title">交易记录</div>
+  <div style="overflow-x:auto; max-height:300px; overflow-y:auto;">
+    <table class="trades-table" id="trades-table">
+      <thead><tr><th>#</th><th>日期</th><th>操作</th><th>价格</th><th>股数</th><th>金额</th><th>盈亏</th></tr></thead>
+      <tbody id="trades-body"></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+let navChartInst, ddChartInst;
+
+function loadFile(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      // 支持单只结果或批量Top列表（取第一条）
+      const result = Array.isArray(data) ? data[0] : data;
+      renderReport(result);
+    } catch(err) {
+      alert('JSON解析失败：' + err.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+function renderReport(data) {
+  const m = data.metrics || {};
+  const daily = data.daily_portfolio || [];
+  const trades = data.trades || [];
+
+  // Meta
+  document.getElementById('meta-info').textContent =
+    `${data.stock_code || ''}  |  ${data.start_date || ''} ~ ${data.end_date || ''}  |  共 ${trades.length} 笔交易`;
+
+  // 指标卡片
+  const cards = [
+    { label: '总收益率', value: pct(m.total_return), cls: colorCls(m.total_return) },
+    { label: '年化收益', value: pct(m.annual_return), cls: colorCls(m.annual_return) },
+    { label: '最大回撤', value: pct(m.max_drawdown), cls: 'neg' },
+    { label: '夏普比率', value: fix2(m.sharpe_ratio), cls: colorCls(m.sharpe_ratio) },
+    { label: '交易次数', value: trades.length, cls: 'neu' },
+  ];
+  const cardsEl = document.getElementById('metrics-cards');
+  cardsEl.style.display = 'grid';
+  cardsEl.innerHTML = cards.map(c =>
+    `<div class="card"><div class="card-label">${c.label}</div><div class="card-value ${c.cls}">${c.value}</div></div>`
+  ).join('');
+
+  // 净值曲线
+  const dates = daily.map(d => d.date ? d.date.slice(0,10) : '');
+  const navValues = daily.map(d => +(d.portfolio_value / (data.initial_capital || 1000000)).toFixed(4));
+  const buyDates = new Set(trades.filter(t => t.action === 'buy_first').map(t => t.date?.slice(0,10)));
+  const addDates = new Set(trades.filter(t => t.action === 'buy_add').map(t => t.date?.slice(0,10)));
+  const sellDates = new Set(trades.filter(t => t.action === 'sell').map(t => t.date?.slice(0,10)));
+
+  document.getElementById('nav-box').style.display = 'block';
+  if (navChartInst) navChartInst.destroy();
+  navChartInst = new Chart(document.getElementById('navChart'), {
+    type: 'line',
+    data: {
+      labels: dates,
+      datasets: [{
+        label: '策略净值',
+        data: navValues,
+        borderColor: '#58a6ff',
+        borderWidth: 1.5,
+        pointRadius: dates.map((d, i) => (buyDates.has(d) || sellDates.has(d) || addDates.has(d)) ? 5 : 0),
+        pointBackgroundColor: dates.map(d => buyDates.has(d) ? '#3fb950' : addDates.has(d) ? '#d29922' : sellDates.has(d) ? '#f85149' : '#58a6ff'),
+        fill: false,
+        tension: 0.1,
+      }]
+    },
+    options: chartOpts('净值')
+  });
+
+  // 回撤曲线
+  let peak = navValues[0];
+  const ddValues = navValues.map(v => { peak = Math.max(peak, v); return +((v - peak) / peak).toFixed(4); });
+  document.getElementById('dd-box').style.display = 'block';
+  if (ddChartInst) ddChartInst.destroy();
+  ddChartInst = new Chart(document.getElementById('ddChart'), {
+    type: 'line',
+    data: {
+      labels: dates,
+      datasets: [{
+        label: '回撤',
+        data: ddValues,
+        borderColor: '#f85149',
+        borderWidth: 1.2,
+        backgroundColor: 'rgba(248,81,73,0.08)',
+        fill: true,
+        pointRadius: 0,
+        tension: 0.1,
+      }]
+    },
+    options: chartOpts('回撤')
+  });
+
+  // 交易记录表
+  document.getElementById('trades-box').style.display = 'block';
+  const tbody = document.getElementById('trades-body');
+  tbody.innerHTML = trades.map((t, i) => {
+    const cls = t.action === 'buy_first' ? 'buy' : t.action === 'buy_add' ? 'add' : 'sell';
+    const label = t.action === 'buy_first' ? '建仓' : t.action === 'buy_add' ? '加仓' : '清仓';
+    const amount = t.cost ?? t.proceeds ?? '-';
+    const pnl = t.pnl !== undefined ? `<span class="${t.pnl >= 0 ? 'pos' : 'neg'}">${t.pnl?.toFixed(0)}</span>` : '-';
+    return `<tr>
+      <td>${i+1}</td>
+      <td>${t.date?.slice(0,10) || '-'}</td>
+      <td class="${cls}">${label}</td>
+      <td>${t.price?.toFixed(3) || '-'}</td>
+      <td>${t.shares?.toFixed(0) || '-'}</td>
+      <td>${typeof amount === 'number' ? amount.toFixed(0) : amount}</td>
+      <td>${pnl}</td>
+    </tr>`;
+  }).join('');
+}
+
+function chartOpts(yLabel) {
+  return {
+    responsive: true,
+    interaction: { mode: 'index', intersect: false },
+    plugins: { legend: { display: false }, tooltip: { backgroundColor: '#21262d', titleColor: '#8b949e', bodyColor: '#e6edf3' } },
+    scales: {
+      x: { ticks: { color: '#8b949e', maxTicksLimit: 10, font: { size: 11 } }, grid: { color: '#21262d' } },
+      y: { ticks: { color: '#8b949e', font: { size: 11 } }, grid: { color: '#21262d' } }
+    }
+  };
+}
+
+const pct = v => v !== undefined ? (v * 100).toFixed(2) + '%' : '-';
+const fix2 = v => v !== undefined ? v.toFixed(2) : '-';
+const colorCls = v => !v ? 'neu' : v >= 0 ? 'pos' : 'neg';
+</script>
+</body>
+</html>

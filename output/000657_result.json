@@ -1,0 +1,5910 @@
+{
+  "metrics": {
+    "total_return": 0.1428,
+    "annual_return": 0.0291,
+    "max_drawdown": -0.1145,
+    "sharpe_ratio": 0.0043
+  },
+  "daily_portfolio": [
+    {
+      "date": "2020-02-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-02-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-02-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-02-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-02-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-02-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-02-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-05 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-03-31 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-04-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-05-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-05 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-06-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-07-31 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-05 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-08-31 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-09-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-10-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-05 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-11-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2020-12-31 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-05 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-01-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-05 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-02-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-05 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-03-31 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-04-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-05-31 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-06-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-05 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-07-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-05 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-08-31 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-09-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-10-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-05 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-11-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2021-12-31 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-05 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-27 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-01-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-02-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-02 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-03 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-04 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-09 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-10 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-16 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-17 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-23 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-24 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-28 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-29 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-30 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-03-31 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-01 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-06 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-07 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-08 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-11 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-12 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-13 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-14 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-15 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-18 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-19 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-20 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-21 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-22 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-25 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-26 00:00:00",
+      "portfolio_value": 1000000.0,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-27 00:00:00",
+      "portfolio_value": 1019644.0568563165,
+      "signal": 1
+    },
+    {
+      "date": "2022-04-28 00:00:00",
+      "portfolio_value": 1023858.9747917255,
+      "signal": 0
+    },
+    {
+      "date": "2022-04-29 00:00:00",
+      "portfolio_value": 1030883.8380174072,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-05 00:00:00",
+      "portfolio_value": 1030415.5138023618,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-06 00:00:00",
+      "portfolio_value": 1024327.299006771,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-09 00:00:00",
+      "portfolio_value": 1029713.0274797936,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-10 00:00:00",
+      "portfolio_value": 1030415.5138023618,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-11 00:00:00",
+      "portfolio_value": 1043762.7539311572,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-12 00:00:00",
+      "portfolio_value": 1040952.8086408845,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-13 00:00:00",
+      "portfolio_value": 1065071.5057157252,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-16 00:00:00",
+      "portfolio_value": 1064603.1815006798,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-17 00:00:00",
+      "portfolio_value": 1091063.4996507477,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-18 00:00:00",
+      "portfolio_value": 1085209.4469626795,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-19 00:00:00",
+      "portfolio_value": 1092234.3101883614,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-20 00:00:00",
+      "portfolio_value": 1090361.0133281795,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-23 00:00:00",
+      "portfolio_value": 1085443.6090702023,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-24 00:00:00",
+      "portfolio_value": 1089424.3648980886,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-25 00:00:00",
+      "portfolio_value": 1095746.7418012023,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-26 00:00:00",
+      "portfolio_value": 1094575.9312635886,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-27 00:00:00",
+      "portfolio_value": 1093405.120725975,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-30 00:00:00",
+      "portfolio_value": 1113777.224080452,
+      "signal": 0
+    },
+    {
+      "date": "2022-05-31 00:00:00",
+      "portfolio_value": 1116821.3314782474,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-01 00:00:00",
+      "portfolio_value": 1121036.2494136565,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-02 00:00:00",
+      "portfolio_value": 1144686.6222734519,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-06 00:00:00",
+      "portfolio_value": 1154053.1065743607,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-07 00:00:00",
+      "portfolio_value": 1155458.0792194973,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-08 00:00:00",
+      "portfolio_value": 1149838.1886389516,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-09 00:00:00",
+      "portfolio_value": 1141408.3527681336,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-10 00:00:00",
+      "portfolio_value": 1166697.860380588,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-13 00:00:00",
+      "portfolio_value": 1179576.776294338,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-14 00:00:00",
+      "portfolio_value": 1178171.8036492015,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-15 00:00:00",
+      "portfolio_value": 1158502.1866172927,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-16 00:00:00",
+      "portfolio_value": 1163887.9150903153,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-17 00:00:00",
+      "portfolio_value": 1165058.725627929,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-20 00:00:00",
+      "portfolio_value": 1164122.077197838,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-21 00:00:00",
+      "portfolio_value": 1145389.10859602,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-22 00:00:00",
+      "portfolio_value": 1146559.9191336336,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-23 00:00:00",
+      "portfolio_value": 1162482.942445179,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-24 00:00:00",
+      "portfolio_value": 1174893.5341438835,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-27 00:00:00",
+      "portfolio_value": 1169507.8056708607,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-28 00:00:00",
+      "portfolio_value": 1165995.3740580198,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-29 00:00:00",
+      "portfolio_value": 1151243.1612840882,
+      "signal": 0
+    },
+    {
+      "date": "2022-06-30 00:00:00",
+      "portfolio_value": 1151243.1612840882,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-01 00:00:00",
+      "portfolio_value": 1171615.2646385652,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-04 00:00:00",
+      "portfolio_value": 1199480.5554337695,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-05 00:00:00",
+      "portfolio_value": 1196904.7722510195,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-06 00:00:00",
+      "portfolio_value": 1174893.5341438835,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-07 00:00:00",
+      "portfolio_value": 1179342.6141868152,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-08 00:00:00",
+      "portfolio_value": 1172317.7509611333,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-11 00:00:00",
+      "portfolio_value": 1157799.7002947244,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-12 00:00:00",
+      "portfolio_value": 1146091.5949185882,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-13 00:00:00",
+      "portfolio_value": 1140003.3801229973,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-14 00:00:00",
+      "portfolio_value": 1152648.1339292245,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-15 00:00:00",
+      "portfolio_value": 1156394.7276495881,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-18 00:00:00",
+      "portfolio_value": 1170210.291993429,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-19 00:00:00",
+      "portfolio_value": 1165995.3740580198,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-20 00:00:00",
+      "portfolio_value": 1176532.6688965424,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-21 00:00:00",
+      "portfolio_value": 1166697.860380588,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-22 00:00:00",
+      "portfolio_value": 1160141.3213699516,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-25 00:00:00",
+      "portfolio_value": 1178405.9657567244,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-26 00:00:00",
+      "portfolio_value": 1202524.662831565,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-27 00:00:00",
+      "portfolio_value": 1216340.2271754057,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-28 00:00:00",
+      "portfolio_value": 1214232.7682077014,
+      "signal": 0
+    },
+    {
+      "date": "2022-07-29 00:00:00",
+      "portfolio_value": 1214466.930315224,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-01 00:00:00",
+      "portfolio_value": 1214935.2545302694,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-02 00:00:00",
+      "portfolio_value": 1193860.664853224,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-03 00:00:00",
+      "portfolio_value": 1194797.313283315,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-04 00:00:00",
+      "portfolio_value": 1191284.881670474,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-05 00:00:00",
+      "portfolio_value": 1185664.9910899287,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-08 00:00:00",
+      "portfolio_value": 1202524.662831565,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-09 00:00:00",
+      "portfolio_value": 1208144.5534121103,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-10 00:00:00",
+      "portfolio_value": 1201588.014401474,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-11 00:00:00",
+      "portfolio_value": 1196904.7722510195,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-12 00:00:00",
+      "portfolio_value": 1186367.477412497,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-15 00:00:00",
+      "portfolio_value": 1199948.879648815,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-16 00:00:00",
+      "portfolio_value": 1208612.8776271557,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-17 00:00:00",
+      "portfolio_value": 1191050.7195629515,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-18 00:00:00",
+      "portfolio_value": 1175596.0204664515,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-19 00:00:00",
+      "portfolio_value": 1150540.67496152,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-22 00:00:00",
+      "portfolio_value": 1162951.2666602244,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-23 00:00:00",
+      "portfolio_value": 1150072.3507464745,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-24 00:00:00",
+      "portfolio_value": 1131339.3821446565,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-25 00:00:00",
+      "portfolio_value": 1125485.3294565883,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-26 00:00:00",
+      "portfolio_value": 1131573.544252179,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-29 00:00:00",
+      "portfolio_value": 1123846.1947039291,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-30 00:00:00",
+      "portfolio_value": 1118460.4662309065,
+      "signal": 0
+    },
+    {
+      "date": "2022-08-31 00:00:00",
+      "portfolio_value": 1101600.7944892703,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-01 00:00:00",
+      "portfolio_value": 1096683.3902312932,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-02 00:00:00",
+      "portfolio_value": 1096917.5523388158,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-05 00:00:00",
+      "portfolio_value": 1104879.0639945886,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-06 00:00:00",
+      "portfolio_value": 1123143.708381361,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-07 00:00:00",
+      "portfolio_value": 1134383.489542452,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-08 00:00:00",
+      "portfolio_value": 1132041.8684672248,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-09 00:00:00",
+      "portfolio_value": 1128997.761069429,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-13 00:00:00",
+      "portfolio_value": 1126656.139994202,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-14 00:00:00",
+      "portfolio_value": 1121270.4115211794,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-15 00:00:00",
+      "portfolio_value": 1104644.9018870657,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-16 00:00:00",
+      "portfolio_value": 1090361.0133281795,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-19 00:00:00",
+      "portfolio_value": 1099025.0113065203,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-20 00:00:00",
+      "portfolio_value": 1113543.0619729294,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-21 00:00:00",
+      "portfolio_value": 1114011.3861879748,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-22 00:00:00",
+      "portfolio_value": 1114011.3861879748,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-23 00:00:00",
+      "portfolio_value": 1103942.4155644975,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-26 00:00:00",
+      "portfolio_value": 1104176.5776720203,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-27 00:00:00",
+      "portfolio_value": 1103708.2534569749,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-28 00:00:00",
+      "portfolio_value": 1086614.4196078158,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-29 00:00:00",
+      "portfolio_value": 1089190.2027905658,
+      "signal": 0
+    },
+    {
+      "date": "2022-09-30 00:00:00",
+      "portfolio_value": 1086380.2575002932,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-10 00:00:00",
+      "portfolio_value": 1077013.773199384,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-11 00:00:00",
+      "portfolio_value": 1079121.2321670887,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-12 00:00:00",
+      "portfolio_value": 1101834.9565967931,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-13 00:00:00",
+      "portfolio_value": 1111201.440897702,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-14 00:00:00",
+      "portfolio_value": 1122441.2220587928,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-17 00:00:00",
+      "portfolio_value": 1135788.4621875882,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-18 00:00:00",
+      "portfolio_value": 1131339.3821446565,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-19 00:00:00",
+      "portfolio_value": 1130168.5716070428,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-20 00:00:00",
+      "portfolio_value": 1131105.220037134,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-21 00:00:00",
+      "portfolio_value": 1131105.220037134,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-24 00:00:00",
+      "portfolio_value": 1137193.4348327247,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-25 00:00:00",
+      "portfolio_value": 1148667.3781013382,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-26 00:00:00",
+      "portfolio_value": 1151711.4854991336,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-27 00:00:00",
+      "portfolio_value": 1145623.2707035427,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-28 00:00:00",
+      "portfolio_value": 1130168.5716070428,
+      "signal": 0
+    },
+    {
+      "date": "2022-10-31 00:00:00",
+      "portfolio_value": 1138130.0832628156,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-01 00:00:00",
+      "portfolio_value": 1148433.2159938156,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-02 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": -1
+    },
+    {
+      "date": "2022-11-03 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-04 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-07 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-08 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-09 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-10 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-11 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-14 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-15 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-16 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-17 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-18 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-21 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-22 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-23 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-24 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-25 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-28 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-29 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-11-30 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-01 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-02 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-05 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-06 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-07 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-08 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-09 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-12 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-13 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-14 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-15 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-16 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-19 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-20 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-21 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-22 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-23 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-26 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-27 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-28 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-29 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2022-12-30 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-03 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-04 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-05 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-06 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-09 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-10 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-11 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-12 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-13 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-16 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-17 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-18 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-19 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-20 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-30 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-01-31 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-01 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-02 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-03 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-06 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-07 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-08 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-09 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-10 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-13 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-14 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-15 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-16 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-17 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-20 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-21 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-22 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-23 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-24 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-27 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-02-28 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-01 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-02 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-03 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-06 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-07 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-08 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-09 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-10 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-13 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-14 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-15 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-16 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-17 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-20 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-21 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-22 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-23 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-24 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-27 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-28 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-29 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-30 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-03-31 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-03 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-04 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-06 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-07 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-10 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-11 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-12 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-13 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-14 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-17 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-18 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-19 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-20 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-21 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-24 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-25 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-26 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-27 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-04-28 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-04 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-05 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-08 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-09 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-10 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-11 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-12 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-15 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-16 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-17 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-18 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-19 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-22 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-23 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-24 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-25 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-26 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-29 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-30 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-05-31 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-01 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-02 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-05 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-06 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-07 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-08 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-09 00:00:00",
+      "portfolio_value": 1156633.0947231567,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-12 00:00:00",
+      "portfolio_value": 1156158.8286401308,
+      "signal": 1
+    },
+    {
+      "date": "2023-06-13 00:00:00",
+      "portfolio_value": 1154442.4782408448,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-14 00:00:00",
+      "portfolio_value": 1157231.5476396843,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-15 00:00:00",
+      "portfolio_value": 1162809.6864373633,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-16 00:00:00",
+      "portfolio_value": 1166242.3872359348,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-19 00:00:00",
+      "portfolio_value": 1163667.861637006,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-20 00:00:00",
+      "portfolio_value": 1163667.861637006,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-21 00:00:00",
+      "portfolio_value": 1159806.073238613,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-26 00:00:00",
+      "portfolio_value": 1157875.1790394166,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-27 00:00:00",
+      "portfolio_value": 1161093.3360380773,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-28 00:00:00",
+      "portfolio_value": 1159591.5294387024,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-29 00:00:00",
+      "portfolio_value": 1161522.4236378989,
+      "signal": 0
+    },
+    {
+      "date": "2023-06-30 00:00:00",
+      "portfolio_value": 1164526.0368366488,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-03 00:00:00",
+      "portfolio_value": 1165384.2120362918,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-04 00:00:00",
+      "portfolio_value": 1164955.1244364704,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-05 00:00:00",
+      "portfolio_value": 1174395.0516325424,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-06 00:00:00",
+      "portfolio_value": 1169889.631834417,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-07 00:00:00",
+      "portfolio_value": 1168387.825235042,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-10 00:00:00",
+      "portfolio_value": 1165598.7558362025,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-11 00:00:00",
+      "portfolio_value": 1167315.1062354883,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-12 00:00:00",
+      "portfolio_value": 1171605.982233703,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-13 00:00:00",
+      "portfolio_value": 1171605.982233703,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-14 00:00:00",
+      "portfolio_value": 1169460.5442345957,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-17 00:00:00",
+      "portfolio_value": 1168816.9128348634,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-18 00:00:00",
+      "portfolio_value": 1170318.7194342385,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-19 00:00:00",
+      "portfolio_value": 1168816.9128348634,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-20 00:00:00",
+      "portfolio_value": 1167529.650035399,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-21 00:00:00",
+      "portfolio_value": 1163024.230237274,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-24 00:00:00",
+      "portfolio_value": 1160664.2484382559,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-25 00:00:00",
+      "portfolio_value": 1169889.631834417,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-26 00:00:00",
+      "portfolio_value": 1171605.982233703,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-27 00:00:00",
+      "portfolio_value": 1167744.1938353097,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-28 00:00:00",
+      "portfolio_value": 1170104.1756343278,
+      "signal": 0
+    },
+    {
+      "date": "2023-07-31 00:00:00",
+      "portfolio_value": 1176969.577231471,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-01 00:00:00",
+      "portfolio_value": 1179544.1028303998,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-02 00:00:00",
+      "portfolio_value": 1178256.8400309354,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-03 00:00:00",
+      "portfolio_value": 1177827.752431114,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-04 00:00:00",
+      "portfolio_value": 1176755.0334315603,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-07 00:00:00",
+      "portfolio_value": 1174609.595432453,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-08 00:00:00",
+      "portfolio_value": 1175253.2268321852,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-09 00:00:00",
+      "portfolio_value": 1172678.7012332566,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-10 00:00:00",
+      "portfolio_value": 1172893.2450331673,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-11 00:00:00",
+      "portfolio_value": 1170104.1756343278,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-14 00:00:00",
+      "portfolio_value": 1167100.5624355776,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-15 00:00:00",
+      "portfolio_value": 1163238.7740371847,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-16 00:00:00",
+      "portfolio_value": 1162809.6864373633,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-17 00:00:00",
+      "portfolio_value": 1166886.018635667,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-18 00:00:00",
+      "portfolio_value": 1162380.5988375416,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-21 00:00:00",
+      "portfolio_value": 1160020.6170385238,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-22 00:00:00",
+      "portfolio_value": 1158947.89803897,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-23 00:00:00",
+      "portfolio_value": 1150580.6898424518,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-24 00:00:00",
+      "portfolio_value": 1148649.7956432553,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-25 00:00:00",
+      "portfolio_value": 1148649.7956432553,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-28 00:00:00",
+      "portfolio_value": 1153584.303041202,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-29 00:00:00",
+      "portfolio_value": 1156158.8286401308,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-30 00:00:00",
+      "portfolio_value": 1159591.5294387024,
+      "signal": 0
+    },
+    {
+      "date": "2023-08-31 00:00:00",
+      "portfolio_value": 1157660.6352395057,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-01 00:00:00",
+      "portfolio_value": 1161307.879837988,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-04 00:00:00",
+      "portfolio_value": 1175253.2268321852,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-05 00:00:00",
+      "portfolio_value": 1174609.595432453,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-06 00:00:00",
+      "portfolio_value": 1172035.0698335243,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-07 00:00:00",
+      "portfolio_value": 1166027.8434360242,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-08 00:00:00",
+      "portfolio_value": 1163667.861637006,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-11 00:00:00",
+      "portfolio_value": 1167529.650035399,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-12 00:00:00",
+      "portfolio_value": 1165813.2996361132,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-13 00:00:00",
+      "portfolio_value": 1164526.0368366488,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-14 00:00:00",
+      "portfolio_value": 1166242.3872359348,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-15 00:00:00",
+      "portfolio_value": 1167100.5624355776,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-18 00:00:00",
+      "portfolio_value": 1164955.1244364704,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-19 00:00:00",
+      "portfolio_value": 1163882.4054369167,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-20 00:00:00",
+      "portfolio_value": 1160449.7046383452,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-21 00:00:00",
+      "portfolio_value": 1159376.9856387915,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-22 00:00:00",
+      "portfolio_value": 1160449.7046383452,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-25 00:00:00",
+      "portfolio_value": 1157875.1790394166,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-26 00:00:00",
+      "portfolio_value": 1156587.9162399522,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-27 00:00:00",
+      "portfolio_value": 1156158.8286401308,
+      "signal": 0
+    },
+    {
+      "date": "2023-09-28 00:00:00",
+      "portfolio_value": 1156587.9162399522,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-09 00:00:00",
+      "portfolio_value": 1155944.28484022,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-10 00:00:00",
+      "portfolio_value": 1157231.5476396843,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-11 00:00:00",
+      "portfolio_value": 1153584.303041202,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-12 00:00:00",
+      "portfolio_value": 1159591.5294387024,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-13 00:00:00",
+      "portfolio_value": 1161093.3360380773,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-16 00:00:00",
+      "portfolio_value": 1154013.3906410234,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-17 00:00:00",
+      "portfolio_value": 1166242.3872359348,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-18 00:00:00",
+      "portfolio_value": 1157017.0038397736,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-19 00:00:00",
+      "portfolio_value": 1156373.3724400415,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-20 00:00:00",
+      "portfolio_value": 1156373.3724400415,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-23 00:00:00",
+      "portfolio_value": 1143929.8320452194,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-24 00:00:00",
+      "portfolio_value": 1151224.321242184,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-25 00:00:00",
+      "portfolio_value": 1152082.496441827,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-26 00:00:00",
+      "portfolio_value": 1155515.1972403985,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-27 00:00:00",
+      "portfolio_value": 1146933.4452439696,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-30 00:00:00",
+      "portfolio_value": 1148220.708043434,
+      "signal": 0
+    },
+    {
+      "date": "2023-10-31 00:00:00",
+      "portfolio_value": 1147791.6204436123,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-01 00:00:00",
+      "portfolio_value": 1158947.89803897,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-02 00:00:00",
+      "portfolio_value": 1152940.67164147,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-03 00:00:00",
+      "portfolio_value": 1158733.3542390594,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-06 00:00:00",
+      "portfolio_value": 1164096.9492368274,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-07 00:00:00",
+      "portfolio_value": 1161522.4236378989,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-08 00:00:00",
+      "portfolio_value": 1159591.5294387024,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-09 00:00:00",
+      "portfolio_value": 1158518.8104391487,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-10 00:00:00",
+      "portfolio_value": 1157875.1790394166,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-13 00:00:00",
+      "portfolio_value": 1159162.4418388808,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-14 00:00:00",
+      "portfolio_value": 1156373.3724400415,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-15 00:00:00",
+      "portfolio_value": 1158947.89803897,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-16 00:00:00",
+      "portfolio_value": 1155300.6534404878,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-17 00:00:00",
+      "portfolio_value": 1157017.0038397736,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-20 00:00:00",
+      "portfolio_value": 1155944.28484022,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-21 00:00:00",
+      "portfolio_value": 1154227.934440934,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-22 00:00:00",
+      "portfolio_value": 1152082.496441827,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-23 00:00:00",
+      "portfolio_value": 1152940.67164147,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-24 00:00:00",
+      "portfolio_value": 1150366.1460425411,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-27 00:00:00",
+      "portfolio_value": 1151224.321242184,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-28 00:00:00",
+      "portfolio_value": 1150795.2336423625,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-29 00:00:00",
+      "portfolio_value": 1152082.496441827,
+      "signal": 0
+    },
+    {
+      "date": "2023-11-30 00:00:00",
+      "portfolio_value": 1150795.2336423625,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-01 00:00:00",
+      "portfolio_value": 1152940.67164147,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-04 00:00:00",
+      "portfolio_value": 1155300.6534404878,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-05 00:00:00",
+      "portfolio_value": 1149507.9708428984,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-06 00:00:00",
+      "portfolio_value": 1151224.321242184,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-07 00:00:00",
+      "portfolio_value": 1148220.708043434,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-08 00:00:00",
+      "portfolio_value": 1148864.339443166,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-11 00:00:00",
+      "portfolio_value": 1148435.2518433447,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-12 00:00:00",
+      "portfolio_value": 1147791.6204436123,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-13 00:00:00",
+      "portfolio_value": 1143929.8320452194,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-14 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": -1
+    },
+    {
+      "date": "2023-12-15 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-18 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-19 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-20 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-21 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-22 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2023-12-25 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-10 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-11 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-12 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-15 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-16 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-17 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-18 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-19 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-22 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-23 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-24 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-25 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-26 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-29 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-30 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-01-31 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-01 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-02 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-05 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-06 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-07 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-08 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-19 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-20 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-21 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-22 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-23 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-26 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-27 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-28 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-02-29 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-01 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-04 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-05 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-06 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-07 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-08 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-11 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-12 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-13 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-14 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-15 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-18 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-19 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-20 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-21 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-22 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-25 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-26 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-27 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-28 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-03-29 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-01 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-02 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-03 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-08 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-09 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-10 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-11 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-12 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-15 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-16 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-17 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-18 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-19 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-22 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-23 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-24 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-25 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-26 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-29 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-04-30 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-06 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-07 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-08 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-09 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-10 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-13 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-14 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-15 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-16 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-17 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-20 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-21 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-22 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-23 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-24 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-27 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-28 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-29 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-30 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-05-31 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-03 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-04 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-05 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-06 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-07 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-11 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-12 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-13 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-14 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-17 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-18 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-19 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-20 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-21 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-24 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-25 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-26 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-27 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-06-28 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-01 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-02 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-03 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-04 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-05 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-08 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-09 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-10 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-11 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-12 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-15 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-16 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-17 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-18 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-19 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-22 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-23 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-24 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-25 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-26 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-29 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-30 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-07-31 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-01 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-02 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-05 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-06 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-07 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-08 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-09 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-12 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-13 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-14 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-15 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-16 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-19 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-20 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-21 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-22 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-23 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-26 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-27 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-28 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-29 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-08-30 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-02 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-03 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-04 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-05 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-06 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-09 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-10 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-11 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-12 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-13 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-18 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-19 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-20 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-23 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-24 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-25 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-26 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-27 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-09-30 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-08 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-09 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-10 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-11 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-14 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-15 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-16 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-17 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-18 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-21 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-22 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-23 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-24 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-25 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-28 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-29 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-30 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-10-31 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-01 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-04 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-05 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-06 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-07 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-08 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-11 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-12 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-13 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-14 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-15 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-18 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-19 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-20 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-21 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-22 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-25 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-26 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-27 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-28 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-11-29 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-02 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-03 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-04 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-05 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-06 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-09 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-10 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-11 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-12 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-13 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-16 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-17 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-18 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-19 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-20 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-23 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-24 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-25 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-26 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-27 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-30 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    },
+    {
+      "date": "2024-12-31 00:00:00",
+      "portfolio_value": 1142829.342646386,
+      "signal": 0
+    }
+  ],
+  "trades": [
+    {
+      "date": "2022-04-27 00:00:00",
+      "action": "buy_first",
+      "price": 8.5385,
+      "shares": 23416.21,
+      "cost": 200000.0
+    },
+    {
+      "date": "2022-11-02 00:00:00",
+      "action": "sell",
+      "price": 15.2348,
+      "shares": 23416.21,
+      "proceeds": 356633.09,
+      "pnl": 156693.08
+    },
+    {
+      "date": "2023-06-12 00:00:00",
+      "action": "buy_first",
+      "price": 9.3193,
+      "shares": 21454.38,
+      "cost": 200000.0
+    },
+    {
+      "date": "2023-12-14 00:00:00",
+      "action": "sell",
+      "price": 8.6813,
+      "shares": 21454.38,
+      "proceeds": 186196.25,
+      "pnl": -13743.77
+    }
+  ],
+  "stock_code": "000657",
+  "start_date": "2020-01-01",
+  "end_date": "2024-12-31"
+}
