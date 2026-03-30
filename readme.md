@@ -82,3 +82,4 @@
 - 改 cache 为 CSV 可兼容无 parquet 的环境
 - `run_batch` 增加并发异步提升效率
 - 画图、回测报告更可视（`matplotlib`, `plotly`）
+
